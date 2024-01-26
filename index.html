@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Delivery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="basic.css">
+  
+</head>
+
+<body>
+  <header>
+
+    <i class="fa-solid fa-pizza-slice fa-beat fa-2xl" style="color: #ff6600;"></i> 
+    <h1>Pizza Slice</h1>
+
+    <div class="add"style="">
+        <label>Deliver to</label> <i class="fa-solid fa-location-dot"></i><br>
+        <input type="text" placeholder="enter your address..">
+    </div>
+
+
+    <div class="search" style="display:flex;align-items:center;">
+        <div class="ls">
+          <input style="height:30px;width:250px" type="text">
+        </div>
+        <div class="rs" style="width:50px;background-color:#ff6600;height:34.5px;display:flex;align-items:center;justify-content:center;">
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </div>
+        
+    </div>
+    <div class="navi">
+        <nav>
+            <button class="hbtn">Sign In</button>
+            <button class="hbtn">Sign Up</button>
+            <button class="hbtn">Full Menu</button>
+            <a href="#foot"><button class="hbtn">About</button></a>
+        </nav>            
+    </div>
+    <div >
+        <button class="down"><label>Cart</label><i class="fa-solid fa-cart-shopping" style="color: #ffae00;"></i></button>
+    </div>
+  </header>
+
+
+
+  <section class="items">
+    <div class="sug">
+    <div class="sugg">
+      <h2>What's on your mind?</h2><br>
+      <div class="sugimg">
+        <div class="hp" id="p" onclick="window.location.href='index.html';">
+          <img src="https://www.freeiconspng.com/uploads/pizza-png-15.png" height="150px" width="150px"><br>
+          <h4 text-align="center">Pizzas</h4>
+        </div>
+        <div class="hp" id="b" onclick="window.location.href='burger.html';">
+          <img  src="https://www.freeiconspng.com/uploads/hamburger-burger-png-image-12.png" height="150px" width="150px"><br>
+          <h4>Burgers</h4>
+        </div>
+        <div class="hp" id="i" onclick="window.location.href='ice.html';">
+          <img  src="ice.png" height="150px" width="150px"><br>
+          <h4 >Ice Creams</h4>
+        </div>
+        <div class="hp" id="t" onclick="window.location.href='drink.html';">
+          <img  src="shake.png" height="150px" width="180px"><br>
+          <h4>Thick Shakes</h4>
+        </div>
+      </div> 
+    </div>
+    </div>
+    <h2 style="width:80vw;margin-left: 147px;">Trending.....</h2>
+
+
+
+    <div class="menu-item">
+      <div>
+       <img  class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/5779285fbfb3c04730f0b71ba4132255"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Chicken Sausage Pizza</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i><h4 id="cns"> 409</h4></h4></div>
+        <div>American classic! Spicy, herbed chicken sausage on pizza</div>
+      </div>
+        
+      <div><button class="addcart" >Add to Cart</button></div>
+    </div>
+
+    <div class="menu-item">
+      <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/25f8cd12a914066c7c9627d42eafd926"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Cheese n Corn Pizza</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 389</h4></h4></div>
+        <div>A delectable combination of sweet & juicy golden corn</div>
+      </div>
+        
+      <div><button class="addcart" >Add to Cart</button></div>
+    </div>
+
+    <div class="menu-item">
+         <div><img  class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/0581f2e3b7d0b3ede4b476c1d64a6434"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Peppy Paneer Pizza</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 409</h4></h4></div>
+        <div>Flavorful trio of juicy paneer, crisp capsicum with spicy red paprika</div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+      <div class="menu-item">
+         <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/7602a3d88b2aeb0053954d96be9a9829"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Pepper Barbecue Chicken Pizza</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 479</h4></h4></div>
+        <div>Pepper barbecue chicken for that extra zing. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.</div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+      <div class="menu-item">
+      <div><img class="piz"  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/0d1949eef23c572096269d890e438efb"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Mexican Green Wave Pizza</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star-half-stroke fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 489</h4></h4></div>
+        <div>Mexican herbs sprinkled on onion, capsicum, tomato & jalapeno</div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+      <div class="menu-item">
+         <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/15c3a34b64ec4298f2a0778d1b008919"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Double Cheese Margherita Pizza</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 409</h4></h4></div>
+        <div>Classic delight with 100% real mozzarella cheese. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.</div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+      <div class="menu-item">
+         <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/698685a1cec5dacd6d92b7340e7fd5ff"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Blazing Chicken & Paprika</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 455</h4></h4></div>
+        <div>Hot & spicy chicken pizza with a combination of chicken keema & red paprika toppings and a new spicy peri peri sauce.</div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+      <div class="menu-item">
+         <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/96566f9c1549f70084cf550786445c57"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Party for 4 (Veg) @Rs. 130 off</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 851</h4></h4></div>
+        <div>Meal for 4: Medium Margherita + Medium Farmhouse with Garlic Bread & 2 Peps</div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+      <div class="menu-item">
+         <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/743afad04890d8087f268b45ebc17041"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Dominator Party for 2 (Non-Veg) @Rs. 140 off</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 795</h4></h4></div>
+        <div>Meal for 2: Regular Non Veg Supreme + Regular Chicken Dominator with Garlic Bread & Pepsi
+        </div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+      <div class="menu-item">
+         <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/80c0a378d5a09f45ca7881518ab276dd"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Match Day Veg Combo @Rs. 110 off</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 705</h4></h4></div>
+        <div>Meal for 2: Regular Veg Extravaganza + Regular Indi Tandoori Paneer with Chocolava Cake & Pepsi
+        </div>
+      </div>        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+  </section>
+  
+
+  <div class="foot">
+  <div id="foot" class="footer">
+    <div class="fcol">
+      <div class="logo" style="display:flex;align-items:center;justify-content:space-evenly">
+        <i class="fa-solid fa-pizza-slice fa-beat fa-2xl" style="color: #ff6600;"></i> 
+        <h1>Pizza Slice</h1>   
+            <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+    </div>
+
+    </div>
+
+    <div class="fcol">
+      <div class="about">
+        <h4>About</h4>
+        <p>This is a legal website to order your desired pizza all over india.All permissions are registered under central government to run pizza delivery all over india</p>
+      </div>
+    </div>
+
+    <div class="fcol">
+      <h5>Contact Us</h5>
+      <div class="social">
+          <i class="fa-regular fa-envelope fa-2xl"></i>
+          <i class="fa-brands fa-whatsapp fa-2xl"></i>
+          <i class="fa-brands fa-facebook fa-2xl"></i>
+          <i class="fa-brands fa-instagram fa-2xl"></i>
+          <i class="fa-brands fa-telegram fa-2xl"></i>
+        
+      </div>
+    </div>
+
+  </div>
+  <div style="border:2px solid #000000;background-color:rgb(55, 54, 54);display:flex;align-items:center;width:100%;height:40px;justify-content:center">
+    &copy; PizzaSlice.com | All rights reserved
+  </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
+

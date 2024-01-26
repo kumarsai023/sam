@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Delivery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="basic.css">
+  
+</head>
+
+<body>
+  <header>
+
+    <i class="fa-solid fa-pizza-slice fa-beat fa-2xl" style="color: #ff6600;"></i> 
+    <h1>Pizza Slice</h1>
+
+    <div class="add"style="">
+        <label>Deliver to</label> <i class="fa-solid fa-location-dot"></i><br>
+        <input type="text" placeholder="enter your address..">
+    </div>
+
+
+    <div class="search" style="display:flex;align-items:center;">
+        <div class="ls">
+          <input style="height:30px;width:250px" type="text">
+        </div>
+        <div class="rs" style="width:50px;background-color:#ff6600;height:34.5px;display:flex;align-items:center;justify-content:center;">
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </div>
+        
+    </div>
+    <div class="navi">
+        <nav>
+            <button class="hbtn">Sign In</button>
+            <button class="hbtn">Sign Up</button>
+            <button class="hbtn">Full Menu</button>
+            <a href="#foot"><button class="hbtn">About</button></a>
+        </nav>            
+    </div>
+    <div >
+        <button class="down"><label>Cart</label><i class="fa-solid fa-cart-shopping" style="color: #ffae00;"></i></button>
+    </div>
+  </header>
+  <section class="items">
+    <div class="sug">
+    <div class="sugg">
+      <h2>What's on your mind?</h2><br>
+      <div class="sugimg">
+        <div class="hp" id="p" onclick="window.location.href='pizza.html';">
+          <img src="https://www.freeiconspng.com/uploads/pizza-png-15.png" height="150px" width="150px"><br>
+          <h4 text-align="center">Pizzas</h4>
+        </div>
+        <div class="hp" id="b" onclick="window.location.href='burger.html';">
+          <img  src="https://www.freeiconspng.com/uploads/hamburger-burger-png-image-12.png" height="150px" width="150px"><br>
+          <h4>Burgers</h4>
+        </div>
+        <div class="hp" id="i" onclick="window.location.href='ice.html';">
+          <img  src="ice.png" height="150px" width="150px"><br>
+          <h4 >Ice Creams</h4>
+        </div>
+        <div class="hp" id="t" onclick="window.location.href='drink.html';">
+          <img  src="shake.png" height="150px" width="180px"><br>
+          <h4>Thick Shakes</h4>
+        </div>
+      </div> 
+    </div>
+    </div>
+
+    <h2 style="width:80vw;margin-left: 147px;">Trending.....</h2>
+    
+    <div class="menu-item">
+        <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tgae9hl2ukys0omooyfn"></div>
+     
+     <div class="rupee">
+       <div class="itemname">Willy Wonka Thickshake</div>
+       <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+       <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 229</h4></h4></div>
+       <div>Indulgent, creamy, and oh-so-satisfying. Serves 1.</div>
+     </div>
+       
+       <div><button class="addcart" >Add to Cart</button></div>
+     </div>
+
+     <div class="menu-item">
+        <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vankcewhbrivmofwf3u4"></div>
+     
+     <div class="rupee">
+       <div class="itemname">Strawberry Thick Shake</div>
+       <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+       <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 229</h4></h4></div>
+       <div>Blend of the strawberry ice cream with the milk and the prepared cocoa syrup.</div>
+     </div>
+       
+       <div><button class="addcart" >Add to Cart</button></div>
+     </div>
+
+    <div class="menu-item">
+        <div><img  class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/jtnsr7uyt1qeujaqohbf"></div>
+     
+     <div class="rupee">
+       <div class="itemname">Almond Choco Feast Milkshake 350ml</div>
+       <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+       <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 229</h4></h4></div>
+       <div>A luscious milkshake for almond and choco lovers. Serves 1.</div>
+     </div>
+       
+       <div><button class="addcart" >Add to Cart</button></div>
+     </div>
+     
+     <div class="menu-item">
+        <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/lanjredeo0hp21fqgkna"></div>
+     
+     <div class="rupee">
+       <div class="itemname">Red Velvet Thick Shake </div>
+       <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+       <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 249</h4></h4></div>
+       <div>Savor the combination of red velvet cake into blissful shake</div>
+     </div>
+       
+       <div><button class="addcart" >Add to Cart</button></div>
+     </div>
+
+    <div class="menu-item">
+        <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bsa12ic9mucpdndc2alh"></div>
+     
+     <div class="rupee">
+       <div class="itemname">Nutella Brownie Thickshake</div>
+       <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+       <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 239</h4></h4></div>
+       <div>A rich, creamy and chocolatey thickshake with a hazelnut twist. Serves 1
+       </div>
+     </div>        
+       <div><button class="addcart" >Add to Cart</button></div>
+     </div>      
+
+      <div class="menu-item">
+      <div><img class="piz"  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/eic1lrazw7eduthggkvi"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Creme Go Banana Thick Shake</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star-half-stroke fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 219</h4></h4></div>
+        <div>Indulgent and creamy banana shake, perfect for satisfying any sweet tooth. Serves 1</div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+      <div class="menu-item">
+         <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/sgvpa316hkcmsagdqrwd"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Pineapple Thick Shake</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 219</h4></h4></div>
+        <div>Sweet and tempting combination of pineapple fruit, ice cream and pineapple crush.</div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+
+
+      <div class="menu-item">
+         <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/q5vcyya3uvlg53jxsigq"></div>
+      
+      <div class="rupee">
+        <div class="itemname">Green Apple Thick Shake</div>
+        <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+        <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 199</h4></h4></div>
+         <div>The best thirst quencher with a blend of green apple crush
+            </div>
+      </div>
+        
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+      <div class="menu-item">
+        <div><img class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/m7gvqojjd5bi36qxtymg"></div>
+        
+        <div class="rupee">
+          <div class="itemname">Watermelon Thick Shake</div>
+          <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+          <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 219</h4></h4></div>
+          <div>The best thirst quencher with a blend of watermelon crush</div>
+        </div>
+          
+        <div><button class="addcart" >Add to Cart</button></div>
+      </div>
+  
+      <div class="menu-item">
+           <div><img  class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/s61yotyum8r9jf0vc1ex"></div>
+        
+        <div class="rupee">
+          <div class="itemname">Mango Thickshake 350ml</div>
+          <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star fa-xl"></i></div>
+          <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <h4 id="cns"> 219</h4></h4></div>
+          <div>A heavenly blend of creamy goodness and fruity sweetness. Serves 1</div>
+        </div>
+          
+          <div><button class="addcart" >Add to Cart</button></div>
+        </div>
+      
+        <div class="menu-item">
+          <div>
+           <img  class="piz" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vgumkvfhndm8ulmcbfye"></div>
+          
+          <div class="rupee">
+            <div class="itemname">Banana Caramel Crunch Thick Shake (350 ml)</div>
+            <div style="display:flex"><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-solid fa-star fa-xl"></i><i class="fa-regular fa-star-half-stroke fa-xl"></i></div>
+            <div class="rupees"><h4><i class="fa-solid fa-indian-rupee-sign fa-sm"></i><h4 id="cns"> 239</h4></h4></div>
+            <div>Serves 1 | Indulge in a creamy, nutty and sweet shake perfect for any time of day. Serves 1</div>
+          </div>
+            
+          <div><button class="addcart" >Add to Cart</button></div>
+        </div>
+  
+
+      
+
+  </section>
+  
+
+  <div class="foot">
+  <div id="foot" class="footer">
+    <div class="fcol">
+      <div class="logo" style="display:flex;align-items:center;justify-content:space-evenly">
+        <i class="fa-solid fa-pizza-slice fa-beat fa-2xl" style="color: #ff6600;"></i> 
+        <h1>Pizza Slice</h1>   
+            <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+    </div>
+
+    </div>
+
+    <div class="fcol">
+      <div class="about">
+        <h4>About</h4>
+        <p>This is a legal website to order your desired pizza all over india.All permissions are registered under central government to run pizza delivery all over india</p>
+      </div>
+    </div>
+
+    <div class="fcol">
+      <h5>Contact Us</h5>
+      <div class="social">
+          <i class="fa-regular fa-envelope fa-2xl"></i>
+          <i class="fa-brands fa-whatsapp fa-2xl"></i>
+          <i class="fa-brands fa-facebook fa-2xl"></i>
+          <i class="fa-brands fa-instagram fa-2xl"></i>
+          <i class="fa-brands fa-telegram fa-2xl"></i>
+        
+      </div>
+    </div>
+
+  </div>
+  <div style="border:2px solid #000000;background-color:rgb(55, 54, 54);display:flex;align-items:center;width:100%;height:40px;justify-content:center">
+    &copy; PizzaSlice.com | All rights reserved
+  </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
